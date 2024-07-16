@@ -41,13 +41,14 @@ html{
     text-align: center;
 }
 .row2 h2{
-    font-size: 4rem;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    font-size: 4.5rem;
     margin-top: 20px;
     margin-bottom: 15px;
 }
 .row2 img{
     margin-top: 40px;
-    width: 350px;
+    width: 320px;
     border-radius: 6%;
 
 }
@@ -59,6 +60,7 @@ html{
 }
 
 .row1 h1{
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
     font-size: 4rem;
     text-align: center;
     margin-left: 70px;
