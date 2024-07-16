@@ -33,7 +33,7 @@ const Main=()=>{
                 <div className="row2">
                     <h2>Find Your Book</h2>
                     <div className="search">
-                        <input type="text" placeholder="Enter Your Book Name"
+                        <input type="text" placeholder="Search books..."
                         value={search} onChange={e=>setSearch(e.target.value)}
                         onKeyPress={searchBook}/>
                         <img
