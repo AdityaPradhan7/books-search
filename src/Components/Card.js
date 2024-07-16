@@ -1,5 +1,4 @@
-import react from "react";
-import { useState } from "react/cjs/react.development";
+import react ,{useState}from "react";
 import Modal from "./Modal";
 const Card = ({ book }) => { 
     // 'book' is a prop and an array as we got from Main.js
