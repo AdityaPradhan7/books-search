@@ -2,6 +2,7 @@ import react ,{useState}from "react";
 import Card from "./Card";
 import SearchIcon from "./search.svg";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const Main=()=>{
     const [search,setSearch]=useState("");
@@ -42,11 +43,15 @@ const Main=()=>{
                         onClick={handleClick}
                         />
                     </div>
+                    <nav>
+                        <Link id="link1" to="/">Home</Link>
+                        <Link id="link2" to="/about">About</Link>
+                    </nav>
                     <img src="./images/bg2.png" alt="kids reading" />
                     <h3>NOTE - Results show only saleable books</h3>
                 </div>
             </div>
-
+            
             <div className="container">
 
               {

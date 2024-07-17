@@ -40,23 +40,112 @@ html{
     right: 130px;
     text-align: center;
 }
+.row2-{
+    position: relative;
+    top:10px;
+    left:200px;
+    text-align: center;
+}
 .row2 h2{
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
     font-size: 4.5rem;
     margin-top: 20px;
     margin-bottom: 15px;
 }
+.row2- h2{
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
 .row2 img{
-    margin-top: 40px;
+    margin-top:20px;
+    width: 320px;
+    border-radius: 6%;
+
+}
+.row2- img{
+    margin-top:20px;
     width: 320px;
     border-radius: 6%;
 
 }
 .row2 h3{
-    font-size: 17px;
-    margin-top: 10px;
+    font-size: 16px;
     text-align: center;
     margin-left: 2px;
+}
+
+.row2 nav{
+    font-size: 1.5rem;;
+    display: flex;
+    margin-right:20px;
+    margin-top:20px;
+    justify-content: space-evenly;
+}
+
+.row2- nav{
+    font-size: 1.5rem;;
+    display: flex;
+    margin-right:20px;
+    margin-top:20px;
+    justify-content: space-evenly;
+}
+
+#link1{
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 20%;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#link1{
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 20%;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#link2{
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 20%;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#link1-{
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 20%;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#link2-{
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 20%;
+    padding-left:10px;
+    padding-right:10px;
+}
+.row2- .navab{
+    margin-top: 30px;
+}
+
+#link1 {
+    margin-right: 10px;
+}
+
+.row2- h3{
+    top: 100px;
+    margin-top: 50px;
 }
 
 .row1 h1{
