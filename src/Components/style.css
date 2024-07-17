@@ -41,9 +41,8 @@ html{
     text-align: center;
 }
 .row2-{
-    position: relative;
-    top:10px;
-    left:200px;
+    position: absolute;
+    left:800px;
     text-align: center;
 }
 .row2 h2{
