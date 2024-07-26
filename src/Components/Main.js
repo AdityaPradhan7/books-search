@@ -47,7 +47,7 @@ const Main=()=>{
                         <Link id="link1" to="/">Home</Link>
                         <Link id="link2" to="/about">About</Link>
                     </nav>
-                    <img src="./images/bg2.png" alt="kids reading" />
+                    
                     <h3>NOTE - Results show only saleable books</h3>
                 </div>
             </div>

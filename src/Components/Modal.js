@@ -1,6 +1,9 @@
 import react from 'react';
+import { Link } from 'react-router-dom'
 
 const Modal=({show,item,onClose})=>{
+    // 'show', 'item' and 'onClose' are props which are passed in Card.js to Modal.js
+    // item is the book that was clicked
     if(!show)
     {
         return null;
@@ -17,7 +20,7 @@ const Modal=({show,item,onClose})=>{
                             <h1>{item.volumeInfo.title}</h1>
                             <h3>{item.volumeInfo.authors}</h3>
                             <h4>{item.volumeInfo.publisher}<span>{item.volumeInfo.publishedDate}</span></h4><br/>
-                            <a href={item.volumeInfo.previewLink} target="blank"><button>More</button></a>
+                            <Link to={item.volumeInfo.previewLink} target="blank"><button>More</button></Link>
                         </div>
                     </div>
                     <h4 className="description">{item.volumeInfo.description}</h4>

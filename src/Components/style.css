@@ -36,13 +36,14 @@ html{
 }
 .row2{
     position: absolute;
-    top:10px;
+    top:80px;
     right: 130px;
     text-align: center;
 }
 .row2-{
     position: absolute;
     left:800px;
+    top: 100px;
     text-align: center;
 }
 .row2 h2{
@@ -56,29 +57,19 @@ html{
     font-size: 5rem;
     margin-bottom: 20px;
 }
-.row2 img{
-    margin-top:20px;
-    width: 320px;
-    border-radius: 6%;
 
-}
-.row2- img{
-    margin-top:20px;
-    width: 320px;
-    border-radius: 6%;
-
-}
 .row2 h3{
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
     margin-left: 2px;
+    margin-top: 80px;
 }
 
 .row2 nav{
     font-size: 1.5rem;;
     display: flex;
     margin-right:20px;
-    margin-top:20px;
+    margin-top:35px;
     justify-content: space-evenly;
 }
 
@@ -143,6 +134,7 @@ html{
 }
 
 .row2- h3{
+    font-size: 15px;
     top: 100px;
     margin-top: 50px;
 }
@@ -249,7 +241,7 @@ html{
 .overlay-inner{
     background: white;
     width: 700px;
-    height: 700px;
+    height: 630px;
     padding: 1.5rem;
     position: relative;
     box-sizing: border-box;
@@ -262,9 +254,10 @@ html{
     right: 1rem;
     outline: none;
     border: none;
-    font-size: 22px;
-    color: rgb(37, 21, 21);
+    font-size: 21px;
+    color: black;
     background-color: transparent;
+    cursor: pointer;
 }
 .overlay-inner .inner-box{
     margin-top: 30px;
@@ -292,6 +285,7 @@ html{
     color: white;
     font-weight: bold;
     padding: 0.3rem 0.5rem;
+    cursor: pointer;
 }
 .description{
     margin-top: 2rem;

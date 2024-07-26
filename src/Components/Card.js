@@ -29,6 +29,8 @@ const Card = ({ book }) => {
                             </div>
                               <Modal show={show} item={bookItem} onClose={()=>setShow(false)}/>
                             </>
+                            // item={bookItem} bcoz on clicking a book, you did a setItem(item)
+                            // bookItem is the book that was clicked
                         )
                     }
                     
