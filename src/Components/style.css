@@ -31,19 +31,20 @@ html{
     width: 100%;
     height: 100%;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg1.png);
-    clip-path: circle(70% at left 300px);
+    clip-path: circle(70% at left 150px);
     z-index: -1;
 }
 .row2{
     position: absolute;
     top:80px;
-    right: 130px;
+    right: 110px;
     text-align: center;
+    /* visibility: hidden; */
 }
 .row2-{
     position: absolute;
-    left:800px;
-    top: 100px;
+    top:80px;
+    right: 90px;
     text-align: center;
 }
 .row2 h2{
@@ -58,12 +59,7 @@ html{
     margin-bottom: 20px;
 }
 
-.row2 h3{
-    font-size: 17px;
-    text-align: center;
-    margin-left: 2px;
-    margin-top: 80px;
-}
+
 
 .row2 nav{
     font-size: 1.5rem;;
@@ -71,6 +67,7 @@ html{
     margin-right:20px;
     margin-top:35px;
     justify-content: space-evenly;
+    margin-top: 30px;
 }
 
 .row2- nav{
@@ -125,9 +122,7 @@ html{
     padding-left:10px;
     padding-right:10px;
 }
-.row2- .navab{
-    margin-top: 30px;
-}
+
 
 #link1 {
     margin-right: 10px;
@@ -135,8 +130,10 @@ html{
 
 .row2- h3{
     font-size: 15px;
-    top: 100px;
-    margin-top: 50px;
+
+    margin-top: 30px;
+    width:fit-content;
+
 }
 
 .row1 h1{
@@ -144,16 +141,16 @@ html{
     text-shadow: 0.5px 0.5px 1px red, 0 0 0.5em blue, 0 0 0.2em blue;
     font-size: 3.5rem;
     text-align: center;
-    margin-left: 70px;
+    margin-left: 50px;
     font-family: "Bodoni Moda",sans-serif;
     
 }
-
 .search{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .search input{
     outline: 0;
     border: none;
@@ -162,7 +159,6 @@ html{
     height: 45px;
     padding: 0 0.5rem;
     font-size: 18px;
-    font-weight: bold;
 }
 .search img{
     background-color: rgb(97, 61, 14);
@@ -176,6 +172,193 @@ html{
     height: 45px;
     cursor: pointer;
 }
+
+@media (max-width: 1140px) {
+  
+    .row1 h1 {
+      font-size: 2.6rem;
+      
+    }
+    .header::before{
+        clip-path: circle(60% at left 150px);
+    }
+    .row2 h2{
+        font-size: 4rem;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .row2- h2{
+        font-size: 4rem;
+    }
+
+    .search input{
+        width: 280px;
+        height: 36px;
+    }
+    .search img{
+        width: 24px;
+        height: 42px;
+        
+    }
+
+    navab{
+        font-size: 1.3rem;;
+        margin-right:20px;
+        margin-top:35px;
+        justify-content: space-evenly;
+    }
+
+    .row2- h3{
+        font-size: 12px;
+    }
+  
+}
+
+@media (max-width: 970px) {
+
+    .row1 h1 {
+      font-size: 2.4rem;
+      
+    }
+    .header::before{
+        clip-path: circle(60% at left 150px);
+    }
+    .row2 h2{
+        font-size: 3.5rem;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .row2- h2{
+        font-size: 3.5rem;
+    }
+
+
+    .search input{
+        width: 200px;
+        height: 30px;
+    }
+    .search img{
+        width: 24px;
+        height: 35px;
+        
+    }
+    .row2 nav{
+        font-size: 1.2rem;;
+        margin-right:20px;
+        margin-top:35px;
+        justify-content: space-evenly;
+    }
+
+    .row2- nav{
+        font-size: 1.2rem;;
+        margin-right:20px;
+        margin-top:35px;
+        justify-content: space-evenly;
+    }
+
+
+    .row2- h3{
+        font-size: 10px;
+    }
+  
+}
+
+@media (max-width: 780px) {
+  
+    .row1 h1 {
+      font-size: 1.6rem;
+      
+    }
+    .header::before{
+        clip-path: circle(50% at left 100px);
+    }
+    .row2{
+        
+        top:280px;
+        right: 130px;
+        
+    }
+    .row2-{
+        top:280px;  
+    }
+    .row2 h2{
+        font-size: 3rem;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .row2- h2{
+        font-size: 3rem;
+    }
+    .search input{
+        width: 150px;
+        height: 22px;
+    }
+    .search img{
+        width: 16px;
+        height: 30px;
+        
+    }
+    .row2 nav{
+        font-size: 1rem;;
+        margin-left:18px;
+        margin-top:35px;
+        justify-content: space-evenly;
+    }
+    .row2- nav{
+        font-size: 1rem;;
+        margin-left:18px;
+        margin-top:35px;
+        justify-content: space-evenly;
+    }
+
+    .row2- h3{
+        font-size: 8.7px;
+    }
+  
+}
+
+@media (max-width: 650px) {
+  
+    .row1 h1 {
+      font-size: 1.3rem;
+      margin-bottom: 210px;
+      margin-left: 40px;
+      
+    }
+    .row2{
+        right: 100px;
+        margin-left:1px;
+    }
+    .header::before{
+        clip-path: circle(63% at left 5px);
+    }
+    .row2 h2{
+        font-size: 2.4rem;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        margin-left: 50px;
+    }
+    .row2- h2{
+        font-size: 2.2rem;
+    }
+    .search input{
+        width: 150px;
+        height: 22px;
+        margin-left: 50px;
+    }
+    .search img{
+        width: 20px;
+        height: 25px;
+        
+    }
+
+    .row2-{
+        margin-left: 25px;
+    }
+  
+}
+
 
 
 .container{

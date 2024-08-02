@@ -29,7 +29,7 @@ const Main=()=>{
         <>
             <div className="header">
                 <div className="row1">
-                    <h1>A room without books is like<br/> a body without a soul.</h1>
+                    <h1>A room without books is like<br/> a body without a soul</h1>
                 </div>
                 <div className="row2">
                     <h2>Find Your Book</h2>
@@ -48,7 +48,6 @@ const Main=()=>{
                         <Link id="link2" to="/about">About</Link>
                     </nav>
                     
-                    <h3>NOTE - Results show only saleable books</h3>
                 </div>
             </div>
             
